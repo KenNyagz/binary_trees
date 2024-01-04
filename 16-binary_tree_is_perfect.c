@@ -3,9 +3,10 @@ int binry_tree_height(const binary_tree_t *tree);
 int bin_tree_count_nodes(const binary_tree_t *tree);
 
 /**
-*
-*
-*
+*binry_tree_height - calculates height of binary (sub)tree by traversing it's
+*  branches
+*@tree: pointer to node whose (sub)tree is to be traversed
+*Return: max path(height)
 */
 
 int binry_tree_height(const binary_tree_t *tree)
@@ -22,10 +23,9 @@ int binry_tree_height(const binary_tree_t *tree)
 }
 
 /**
-*
-*
-*
-*
+*bin_tree_count_nodes - counts nodes on a (sub)tree
+*@tree: pointer to node whose (sub)tree is to be traversed
+*Return: number of nodes
 */
 
 int bin_tree_count_nodes(const binary_tree_t *tree)
@@ -46,7 +46,6 @@ int bin_tree_count_nodes(const binary_tree_t *tree)
 *binary_tree_is_perfect - checks if a binary tree is perfect
 *@tree: pointer to the root node of the tree to check
 *Return: 1 if tree is perfect, 0 if not
-*
 */
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
